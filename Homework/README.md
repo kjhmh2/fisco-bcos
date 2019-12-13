@@ -28,4 +28,14 @@
   bash start_all.sh
   ```
 
-  
+
+- 合约部署
+
+  进入nodejs-sdk/packages/cli路径
+
+  ```bash
+  # deploy 1.0 version
+  ./cli.js deployByCNS SupplyChain 1.0
+  ```
+
+  需要注意，服务器中调用的是0.9版本的合约，如果需要重新部署，服务器中的合约版本也需要随之改变。
