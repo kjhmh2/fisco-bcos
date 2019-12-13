@@ -1,0 +1,19 @@
+{
+    "privateKey": {
+        "type": "pem",
+        "value": "./0x902252c74d3d055a21dfbd01e445a5a0c4303f9d.pem"
+    },
+    "nodes": [
+        {
+            "ip": "127.0.0.1",
+            "port": "20200"
+        }
+    ],
+    "authentication": {
+        "key": "/home/fisco-bcos/Documents/Homework/fisco/nodes/127.0.0.1/sdk/sdk.key",
+        "cert": "/home/fisco-bcos/Documents/Homework/fisco/nodes/127.0.0.1/sdk/sdk.crt",
+        "ca": "/home/fisco-bcos/Documents/Homework/fisco/nodes/127.0.0.1/sdk/ca.crt"
+    },
+    "groupID": 1,
+    "timeout": 10000
+}
